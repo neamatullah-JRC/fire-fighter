@@ -66,9 +66,10 @@ void loop() {
       Stop();
     }
     else if (bt_ir_data == 8) {
-  flame = 0;
+      Stop();
+    spray();
     }
-    else if(bt_ir_data == 10){
+    else if(bt_ir_data == 10){                                               
       flame == 1;
     }
  
